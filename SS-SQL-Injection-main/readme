@@ -1,0 +1,18 @@
+Para Testar:
+
+Ter um banco de dados configurado igual o do index
+
+codigo SQL caso tu tenha preguiça de criar o banco
+
+DROP TABLE IF EXISTS `usuario`;
+
+CREATE TABLE `usuario` (
+  `usuario` varchar(20) DEFAULT NULL,
+  `senha` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `usuario` VALUES ('seu-nome','sua-senha');
+
+após isso no campo senha digita:
+' or ''='
+
